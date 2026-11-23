@@ -93,8 +93,6 @@ svg = env.render()                 # SVG string; no browser needed
 `"ansi"` returns a short state summary. `reset(options={"mirror_poses": poses})`
 replays an exact start. An explicit bank is passed as `start_poses` with shape
 `(number_of_starts, N, 3)`. Every reset samples uniformly from that bank.
-`OpticsGridEnv` is retained in `optics_grid_env.py` as the older discrete prototype;
-`ContinuousOpticsEnv` is re-exported there, but the API above is the primary one.
 
 ## Run the diversity experiment
 
